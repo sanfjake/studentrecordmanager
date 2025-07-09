@@ -36,3 +36,19 @@ def add_student():
         print("Student added successfully.")
     except sqlite3.Error as e:
         print(f"Error adding student: {e}")
+
+# View all students
+def view_students():
+    cursor.execute("SELECT * FROM students")
+    records = cursor.fetchall()
+    if not records:
+        print("No records found.")
+    else:
+        for row in records:
+            print(f"ID: {row[0]}, Name: {row[1], Grade: {row[2]}, Email: {row[3]}}")
+
+# Update student record
+def update_student():
+    try:
+        student_id = int(input("Enter the ID of the student to update: "))
+    except ValueError:
