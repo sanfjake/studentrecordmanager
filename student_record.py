@@ -141,4 +141,6 @@ if __name__ == "__main__":
 # GeeksforGeeks. (2021, September 21). *Python SQLite - Create a new database*. 
 # Retrieved from https://www.geeksforgeeks.org/python-sqlite-create-a-new-database/
 
+#Sachinboy. (n.d.). micro-project-on-student-management-system-using-python-22616. Scribd. https://www.scribd.com/document/844272961/micro-project-on-student-management-system-using-python-22616
+
 # OpenAI. (2025). ChatGPT [Large language model]. https://chat.openai.com/
